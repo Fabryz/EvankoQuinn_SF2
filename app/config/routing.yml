@@ -1,0 +1,5 @@
+fabryz_evanko_quinn:
+    resource: "@FabryzEvankoQuinnBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
