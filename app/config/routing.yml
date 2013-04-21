@@ -1,3 +1,8 @@
+evanko_quinn_user:
+    resource: "@EvankoQuinnUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 evanko_quinn_site:
     resource: "@EvankoQuinnSiteBundle/Controller/"
     type:     annotation

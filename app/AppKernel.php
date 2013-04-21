@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
 
             new EvankoQuinn\SiteBundle\EvankoQuinnSiteBundle(),
+            new EvankoQuinn\UserBundle\EvankoQuinnUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
