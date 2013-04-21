@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+
+</head>
+<body class="route-{{ app.request.get('_route') }}">
+  <div class="wrapper">
+    {% block main %}{% endblock %}
+  </div>
+</body>
+</html>
