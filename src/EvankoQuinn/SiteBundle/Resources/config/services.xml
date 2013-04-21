@@ -6,11 +6,11 @@
 
     <!--
     <parameters>
-        <parameter key="fabryz_evanko_quinn.example.class">Fabryz\EvankoQuinnBundle\Example</parameter>
+        <parameter key="evanko_quinn_site.example.class">EvankoQuinn\SiteBundle\Example</parameter>
     </parameters>
 
     <services>
-        <service id="fabryz_evanko_quinn.example" class="%fabryz_evanko_quinn.example.class%">
+        <service id="evanko_quinn_site.example" class="%evanko_quinn_site.example.class%">
             <argument type="service" id="service_id" />
             <argument>plain_value</argument>
             <argument>%parameter_name%</argument>

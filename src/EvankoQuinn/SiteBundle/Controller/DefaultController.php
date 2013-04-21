@@ -1,6 +1,6 @@
 <?php
 
-namespace Fabryz\EvankoQuinnBundle\Controller;
+namespace EvankoQuinn\SiteBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

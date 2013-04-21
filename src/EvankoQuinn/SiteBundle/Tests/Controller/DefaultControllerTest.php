@@ -1,6 +1,6 @@
 <?php
 
-namespace Fabryz\EvankoQuinnBundle\Tests\Controller;
+namespace EvankoQuinn\SiteBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

@@ -1,5 +1,5 @@
-fabryz_evanko_quinn:
-    resource: "@FabryzEvankoQuinnBundle/Controller/"
+evanko_quinn_site:
+    resource: "@EvankoQuinnSiteBundle/Controller/"
     type:     annotation
     prefix:   /
 
