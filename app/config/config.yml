@@ -71,3 +71,10 @@ fos_user:
     registration:
         confirmation:
             enabled:    false
+
+stof_doctrine_extensions:
+    default_locale: "%locale%"
+    orm:
+        default:
+            timestampable: true
+            sluggable: true
