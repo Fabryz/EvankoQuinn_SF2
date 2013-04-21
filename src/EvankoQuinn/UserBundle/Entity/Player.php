@@ -35,6 +35,11 @@ class Player
      */
     private $bio;
 
+    /**
+     * @ORM\OneToOne(targetEntity="EvankoQuinn\UserBundle\Entity\User", cascade={"persist"})
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     */
+    protected $user;
 
     /**
      * Get id
@@ -90,5 +95,38 @@ class Player
     public function getBio()
     {
         return $this->bio;
+    }
+
+    /**
+     * Set user
+     *
+     * @param \EvankoQuinn\UserBundle\Entity\User $user
+     * @return Player
+     */
+    public function setUser(\EvankoQuinn\UserBundle\Entity\User $user = null)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return \EvankoQuinn\UserBundle\Entity\User
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * To String
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getName();
     }
 }
